@@ -1,0 +1,74 @@
+@import url('reset.css');
+@import url('fuentes.css');
+
+body{
+background: #2e2e2e;
+}
+
+a {	text-decoration: none;	color: #fff;}
+
+/*---HEADER---*/
+
+header
+{
+    background: #171717;
+    margin-bottom: 5px
+}
+
+#minibanner a
+{
+    font-family: sourcesans-light;
+	font-size: 30px;
+	color: #FFF;
+}
+
+#minibanner a:hover
+{
+    text-decoration:none;
+}
+
+header #hprincipal nav
+{
+    float:right;
+}
+
+header #hprincipal nav ul li
+{
+    display:inline;
+    font-family: sourcesans-light;
+    line-height:35px;
+}
+
+header #hprincipal nav ul li a {
+	color: #fff;
+	font-size: 30x;
+	padding: 10px;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+     
+}
+
+header #hprincipal nav ul li a:hover {
+	color: #fff;
+	background: #1798af;
+	text-decoration: none;
+}
+
+/*-- WRAP --*/
+
+body #subheader
+{
+    height: 100px;
+    background: #171717;
+}
+
+body #navegacion
+{
+     background: #171717;
+}
+
+body #socialnetwork
+{
+    text-align: right;
+}
